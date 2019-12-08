@@ -7,12 +7,11 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>CVs</title>
+<title>CV: Malcolm Hudson</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -84,6 +83,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -244,6 +244,18 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -289,13 +301,24 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">CVs</h1>
+<h1 class="title toc-ignore">CV: Malcolm Hudson</h1>
 
 </div>
 
 
-<p>Recent publications</p>
-<p>Earlier publications</p>
+<p>CV Versions:</p>
+<ul>
+<li><a href="2015-vita-short.pdf">short CV</a> publications <strong>2008-2015</strong>
+<ul>
+<li>copied from repos/cv/2015-vita-short.pdf</li>
+</ul></li>
+<li><a href="cvMH.pdf">full CV</a> including publications <strong>2015-2019</strong> <em>and</em> <strong>earlier</strong>
+<ul>
+<li>copied from repos/cv/vitae/cvMH/cvMH.pdf (20191205)</li>
+</ul></li>
+</ul>
+<p>Google scholar publication list.</p>
+<p>Pure publication list (Macquarie University).</p>
 
 
 
@@ -314,23 +337,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
