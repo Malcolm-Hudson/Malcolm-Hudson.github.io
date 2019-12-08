@@ -1,0 +1,8 @@
+name: "Malcolm_Hudson-homepage"
+navbar:
+  title: "Malcolm Hudson"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: about.html
