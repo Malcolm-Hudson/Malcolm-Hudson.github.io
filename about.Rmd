@@ -1,0 +1,17 @@
+---
+title: "CV: Malcolm Hudson"
+---
+
+CV Versions:
+
+  - [supplement to short CV, 2016-2023](vita-short-2024.pdf) publications **2016-2023**
+  
+  - [short CV](2015-vita-short.pdf) publications **2008-2015**
+    - copied from repos/cv/2015-vita-short.pdf
+
+  - [full CV](cvMH.pdf)  including publications **2015-2019** *and* **earlier**
+    - copied from repos/cv/vitae/cvMH/cvMH.pdf (20191205)
+    
+Google scholar publication list.
+
+Pure publication list (Macquarie University).
