@@ -1,0 +1,34 @@
+Package: bnc
+Type: Package
+Title: Estimating the correlation between competing risks
+Version: 0.5
+Date: 2019-09-23
+Authors@R: c(person("Malcolm", " Hudson", role = c("aut", "cre"),
+                     email = "Malcolm.Hudson@mq.edu.au"),
+              person("Maurizio", "Manuguerra", role = "aut"),
+              person("Valerie", "Gares", role = "aut",
+                     email = "Valerie.Gares@insa-rennes.fr"))
+Description: Fits a bivariate censored normal model using imputation to estimate
+    the correlation between two competing events, where at most one is observed.
+Depends: R (>= 2.10)
+Imports:
+  turboEM,
+  survival,
+  stats
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Suggests:
+  knitr,
+  mvtnorm,
+  rmarkdown,
+  MASS,
+  numDeriv,
+  testthat,
+  here,
+  cmprsk,
+  dplyr,
+  magrittr,
+  tibble
+VignetteBuilder: knitr
