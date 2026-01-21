@@ -1,0 +1,22 @@
+name: "Malcolm_Hudson-homepage"
+navbar:
+  title: "Malcolm Hudson"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: about.html
+    - text: "Reports"
+      href: unpublished_reports.html
+resources:
+  # - "path/to/your/file.pdf"
+  - "./reports"
+  - "./talks"
+  # - "../Talks"
+  #Wildcards: You can use wildcards (e.g., data/*.csv) to include multiple files.
+  #Directories: Including a directory path will recursively include all content within that directory. 
+      
+output:
+  html_document:
+    theme: yeti
+    highlight: pygments
