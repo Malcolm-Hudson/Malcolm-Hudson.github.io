@@ -2,3 +2,15 @@
 .Rhistory
 .RData
 .Ruserdata
+archival
+archive
+reports
+talks
+README_github_www
+index.Rmd
+_site.yml
+www.Rproj
+*.pdf
+!/docs/*.pdf
+*.html
+!/docs/*.html
